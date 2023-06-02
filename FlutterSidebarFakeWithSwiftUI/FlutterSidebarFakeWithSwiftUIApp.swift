@@ -12,6 +12,7 @@ struct FlutterSidebarFakeWithSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(SideBarViewModel())
         }
     }
 }

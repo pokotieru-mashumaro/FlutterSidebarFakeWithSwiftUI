@@ -11,6 +11,9 @@
 		97FF453E2A2A7DEE00D5BD7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF453D2A2A7DEE00D5BD7F /* ContentView.swift */; };
 		97FF45402A2A7DEF00D5BD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FF453F2A2A7DEF00D5BD7F /* Assets.xcassets */; };
 		97FF45432A2A7DEF00D5BD7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FF45422A2A7DEF00D5BD7F /* Preview Assets.xcassets */; };
+		97FF454A2A2A7E5C00D5BD7F /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF45492A2A7E5C00D5BD7F /* SideBarView.swift */; };
+		97FF454C2A2A7E8300D5BD7F /* SideBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF454B2A2A7E8300D5BD7F /* SideBarViewModel.swift */; };
+		97FF454E2A2A7F7200D5BD7F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF454D2A2A7F7200D5BD7F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		97FF453D2A2A7DEE00D5BD7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97FF453F2A2A7DEF00D5BD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97FF45422A2A7DEF00D5BD7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97FF45492A2A7E5C00D5BD7F /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		97FF454B2A2A7E8300D5BD7F /* SideBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewModel.swift; sourceTree = "<group>"; };
+		97FF454D2A2A7F7200D5BD7F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				97FF453B2A2A7DEE00D5BD7F /* FlutterSidebarFakeWithSwiftUIApp.swift */,
 				97FF453D2A2A7DEE00D5BD7F /* ContentView.swift */,
+				97FF454D2A2A7F7200D5BD7F /* HomeView.swift */,
+				97FF45492A2A7E5C00D5BD7F /* SideBarView.swift */,
+				97FF454B2A2A7E8300D5BD7F /* SideBarViewModel.swift */,
 				97FF453F2A2A7DEF00D5BD7F /* Assets.xcassets */,
 				97FF45412A2A7DEF00D5BD7F /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97FF454A2A2A7E5C00D5BD7F /* SideBarView.swift in Sources */,
 				97FF453E2A2A7DEE00D5BD7F /* ContentView.swift in Sources */,
 				97FF453C2A2A7DEE00D5BD7F /* FlutterSidebarFakeWithSwiftUIApp.swift in Sources */,
+				97FF454E2A2A7F7200D5BD7F /* HomeView.swift in Sources */,
+				97FF454C2A2A7E8300D5BD7F /* SideBarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
